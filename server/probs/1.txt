@@ -1,0 +1,22 @@
+This is the basic problem, just want you to know how to use PALJ.
+Actually, you need to calculate A+B (0<=A,b<=10) .
+See format below.
+
+Sample input:
+2 3
+Sample output:
+Hello,5!
+
+
+
+You should always use these functions to read input or print answer:
+in() returns a string, just like input().
+out() prints your data, but it only support one list.
+
+For this problem, you may type your script like this:
+
+def solve():
+    a,b=in().split();
+    a=int(a)
+    b=int(b)
+    out([a+b])

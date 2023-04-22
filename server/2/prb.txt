@@ -1,0 +1,7 @@
+This problem tests your basic python coding skills.
+You're given a string S(i!=j -> S[i]!=S[j] , may contain), and a integer K(1<=K<=|S|).
+When S is sorted in alphabetical order, what's the K-th letter's position before?
+Sample input:
+ecbad 3
+Sample output:
+2 (sorted strong is "abcde",which 3rd letter is "c",in position 2)
